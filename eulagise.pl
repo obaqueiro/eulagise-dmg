@@ -1,6 +1,14 @@
 #!/usr/bin/perl
 
-# http://mxr.mozilla.org/seamonkey/source/build/package/mac_osx/pkg-dmg?raw=1
+# eulagise.pl
+# Pete Goodliffe
+
+# Added a EULA to a pre-existing DMG disk image.
+
+# Based on a more fully-featured script found here:
+#     http://mxr.mozilla.org/seamonkey/source/build/package/mac_osx/pkg-dmg?raw=1
+# This script focuses only on adding a EULA to a DMG.
+
 use strict;
 use warnings;
 
