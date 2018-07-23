@@ -42,10 +42,10 @@ my(@gCleanup, %gConfig, $gDarwinMajor, $gDryRun, $gVerbosity);
             'cmd_hdiutil'        => 'hdiutil',
             'cmd_mkdir'          => 'mkdir',
             'cmd_mktemp'         => 'mktemp',
-            'cmd_Rez'            => '/Developer/Tools/Rez',
+            'cmd_Rez'            => '/Applications/Xcode.app/Contents/Developer/Tools/Rez',
             'cmd_rm'             => 'rm',
             'cmd_rsync'          => 'rsync',
-            'cmd_SetFile'        => '/Developer/Tools/SetFile',
+            'cmd_SetFile'        => '/Applications/Xcode.app/Contents/Developer/Tools/SetFile',
 
             # create_directly indicates whether hdiutil create supports
             # -srcfolder and -srcdevice.  It does on >= 10.3 (Panther).
