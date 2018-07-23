@@ -1,3 +1,5 @@
+Note: This is a fork of [this](https://gitorious.org/eulagise/eulagise) Gitorious project with
+minimal changes. The original blog post from Pete Goodliffe explaining this code is [here](http://goodliffe.blogspot.com/2010/08/eulogise-adding-eula-to-dmg.html).
 # Eulagise Read Me
 
 My code projects usually include a release script, a shell script that does
