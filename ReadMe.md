@@ -1,6 +1,4 @@
-===============================================================================
-Eulagise Read Me
-===============================================================================
+# Eulagise Read Me
 
 My code projects usually include a release script, a shell script that does
 something like this:
