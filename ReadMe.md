@@ -58,3 +58,25 @@ DMG. You use it like this:
 
 Simples.
 
+---
+
+The script uses the following tools:
+
+| tool | path |
+|------|------|
+| bless | bless |
+| chmod | chmod |
+| diskutil | diskutil |
+| du | du |
+| hdid | hdid |
+| hdiutil | hdiutil |
+| mkdir | mkdir |
+| mktempt | mktemp |
+| Rez | /Applications/Xcode.app/Contents/Developer/Tools/Rez |
+| rm | rm |
+| rsync | rsync |
+| SetFile | /Applications/Xcode.app/Contents/Developer/Tools/SetFile |
+
+The default for any of the above tools can be overwritten by passing `--config cmd_TOOLNAME value` if another version must be used.
+
+For example, to point Rez to another location: `./eulagise.pl --license MyEula.txt --target MyDiskImage.dmg --config cmd_Rez=/usr/bin/Rez`
