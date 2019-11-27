@@ -252,7 +252,7 @@ if(@resourceFiles) {
   # removing $targetImage anyway.
 
   # Type definitions come from Carbon.r.
-  if(command($gConfig{'cmd_Rez'}, 'Carbon.r', @resourceFiles, '-a', '-o',
+  if(command($gConfig{'cmd_Rez'}, '-F', '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/', 'Carbon.r', @resourceFiles, '-a', '-o',
    $targetImage) != 0) {
     cleanupDie('Rez failed');
   }
